@@ -1,7 +1,9 @@
 package org.apache.maven;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.testng.annotations.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
 
 public class ScientificCalculatorTest {
 
@@ -33,4 +35,3 @@ public class ScientificCalculatorTest {
         assertEquals(1024.0, Math.pow(2, 10), 0.001);
     }
 }
-
